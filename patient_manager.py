@@ -12,7 +12,6 @@ class Paciente:
         return f"Paciente(nome='{self.nome}', cor='{self.cor}', descricao='{self.descricao}')"
 
     def to_dict(self):
-        """Retorna os dados do paciente em formato de dicionário."""
         return {"nome": self.nome, "cor": self.cor, "descricao": self.descricao}
 
 
