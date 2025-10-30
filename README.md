@@ -105,20 +105,3 @@ A triagem segue a lógica simplificada de uma árvore binária, conforme especif
 
 *Nota: A cor **Azul** (Não Urgente) não é alcançada diretamente nesta árvore simplificada, mas o sistema está preparado para gerenciar essa fila caso a lógica de triagem seja expandida.*
 
-## ✅ Critérios de Avaliação Atendidos
-
-O projeto atende integralmente aos critérios da rubrica de avaliação:
-
-| Critério | Pontos | Implementação |
-| :--- | :--- | :--- |
-| **Estrutura de dados da Árvore** | 20 | Classe `NodoArvore` e função `montar_arvore` em `triage_logic.py`. |
-| **Estrutura de Filas** | 20 | Classe `Fila` (FIFO) e gerenciamento de 5 filas separadas em `patient_manager.py`. |
-| **Correta Classificação de Pacientes** | 15 | Função `triagem_logica` percorre a árvore e atribui a cor correta. |
-| **Chamada de Pacientes por Prioridade** | 15 | Lógica de chamada em `PatientManager` segue a prioridade **Vermelho > Laranja > Amarelo > Verde > Azul**. |
-| **Interação com o Usuário** | 10 | Interface web (`streamlit_app.py`) e CLI (`cli.py`) funcionais. |
-| **Boas Práticas e Modularização** | - | Código dividido em módulos e formatado com **Black**. |
-| **Compartilhamento no Github** | 20 | Repositório público com este `README.md` completo. |
-
----
-
-Desenvolvido por **[Seu Nome/Nome do Grupo]** para a disciplina de Estrutura de Dados.
